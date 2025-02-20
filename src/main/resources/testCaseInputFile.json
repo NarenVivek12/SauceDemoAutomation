@@ -1,0 +1,61 @@
+[
+  {
+    "name": "testFrameWork",
+    "inputData" : [
+      {
+        "data1" : "123"
+      },
+      {
+        "data12" : "12312"
+      }
+    ]
+
+  },
+  {
+    "name": "loginInSauceDemo",
+    "inputData" : [
+      {
+        "inventoryPageLabel" : "Products"
+      }
+    ]
+
+  },
+  {
+    "name": "verifyCookieUserName",
+    "inputData" : [
+      {
+        "inventoryPageLabel" : "Products"
+      }
+    ]
+
+  },
+  {
+  "name": "verifySessionStorageUserName",
+  "inputData" : [
+    {
+      "inventoryPageLabel" : "Products",
+      "sessionUsernameKey" : "session-username"
+    }
+  ]
+},{
+  "name": "verifyCostOfProductSameOnInventoryAndProductPage",
+  "inputData" : [
+    {
+      "inventoryPageLabel" : "Products",
+      "sessionUsernameKey" : "session-username",
+      "productName" : "Sauce Labs Backpack"
+    }
+  ]
+},
+  {
+    "name": "verifyProductsAreAddedToCart",
+    "inputData" : [
+      {
+        "inventoryPageLabel" : "Products",
+        "sessionUsernameKey" : "session-username",
+        "productsAddToCart" : ["Sauce Labs Backpack","Sauce Labs Bike Light"]
+      }
+    ]
+  }
+
+]

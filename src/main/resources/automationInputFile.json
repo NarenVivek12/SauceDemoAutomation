@@ -1,0 +1,21 @@
+{
+  "environment" : "dev",
+  "default" : {
+    "browser" : "chrome",
+    "baseUrl" : "https://www.saucedemo.com/v1/",
+    "implicitTimeOut" : 20,
+    "sauce_username" : "standard_user",
+    "sauce_password" : "secret_sauce"
+
+  },
+  "dev" : {
+    "browser" : "chrome",
+    "implicitTimeOut" : 20
+  },
+  "beta" : {
+
+  },
+  "prod" : {
+
+  }
+}
